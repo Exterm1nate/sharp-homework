@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Train xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Number>Подвезем за сотку</Number>
+  <Locomotive>
+    <Name>Маневровый тепловоз</Name>
+    <SerialNumber>ЧМЭ2-293</SerialNumber>
+    <Type>Thermal</Type>
+  </Locomotive>
+  <Wagons>
+    <Wagon>
+      <Name>Вагон-бар</Name>
+      <SerialNumber>РТ-200</SerialNumber>
+      <Type>Passenger</Type>
+      <Seats>42</Seats>
+      <LoadCapacity>0</LoadCapacity>
+    </Wagon>
+    <Wagon>
+      <Name>Фитинговая платформа</Name>
+      <SerialNumber>13-1258-01</SerialNumber>
+      <Type>Freight</Type>
+      <Seats>0</Seats>
+      <LoadCapacity>72</LoadCapacity>
+    </Wagon>
+  </Wagons>
+</Train>
